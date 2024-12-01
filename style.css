@@ -36,7 +36,7 @@ h2 {
     justify-content: center;
     margin: 40px 0;
     position: relative;
-    padding-top: 56.25%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
 }
 .video-container iframe {
     position: absolute;
@@ -46,7 +46,6 @@ h2 {
     height: 100%;
     border-radius: 10px;
 }
-
 .lyrics {
     font-size: 18px;
     line-height: 1.4;
@@ -56,14 +55,16 @@ h2 {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+.lyrics span:hover {
+    color: #FDB515; /* Lighter gold color on hover */
+    cursor: pointer;
+}
 .lyrics em {
     display: block;
     text-align: center;
     margin: 15px 0;
     color: #bbbbbb;
 }
-
-
 .resources {
     background-color: rgba(30, 30, 30, 0.9);
     padding: 20px;
@@ -84,10 +85,11 @@ h2 {
     margin-bottom: 10px;
 }
 .resources ul li a {
-    color: #1db954;
+    color: #FDB515; /* Gold color */
     text-decoration: none;
 }
 .resources ul li a:hover {
+    color: #C09748; /* Darker gold color on hover */
     text-decoration: underline;
 }
 .social-share {
@@ -97,7 +99,7 @@ h2 {
 .social-share button {
     margin: 5px;
     padding: 10px 20px;
-    background-color: #1db954;
+    background-color: #FDB515; /* Gold color */
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -107,11 +109,11 @@ h2 {
     align-items: center;
     gap: 8px;
 }
+.social-share button:hover {
+    background-color: #C09748; /* Darker gold on hover */
+}
 .social-share button i {
     font-size: 18px;
-}
-.social-share button:hover {
-    background-color: #14863b;
 }
 footer {
     text-align: center;
