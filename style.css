@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #2c3e50, #34495e);
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+h1, h2 {
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 2px 2px 5px #000;
+}
+h1 {
+    margin-top: 50px;
+    font-size: 48px;
+}
+h2 {
+    margin-top: -10px;
+    font-size: 24px;
+    color: #ddd;
+}
+.section-header {
+    margin-top: 30px;
+    font-size: 28px;
+    color: #f0f0f0;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+.video-container iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.lyrics {
+    font-size: 18px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.lyrics em {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: #bbbbbb;
+}
+.resources {
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.resources h3 {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 24px;
+}
+.resources ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.resources ul li {
+    margin-bottom: 10px;
+}
+.resources ul li a {
+    color: #1db954;
+    text-decoration: none;
+}
+.resources ul li a:hover {
+    text-decoration: underline;
+}
+.social-share {
+    text-align: center;
+    margin: 30px 0;
+}
+.social-share button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+.social-share button i {
+    font-size: 18px;
+}
+.social-share button:hover {
+    background-color: #14863b;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    background-color: #121212;
+    color: #555555;
+}
